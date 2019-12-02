@@ -6,3 +6,40 @@ body * {
     box-sizing: border-box;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+{section 
+    display: inline-block;
+    width: 80%;
+    margin-left: 25%;
+    margin-top: 5%;
+} 
+    img {
+        display: inline-block;
+        width: 30%;
+        float: left;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    .textline{
+        display: inline-block;
+        text-align: left;
+        font-size: 16px;
+        color: #B1B1B1;
+        text-transform: uppercase;
+        border-left-color: #FFF;
+    }
+    .input{
+        display: inline-block;
+        text-align: left;
+        font-size: 16px;
+ 
+    }
+    div {
+        display: inline-block;
+        width: 50%;
+        float: left;
+        margin-left: 10%;
+        margin-top: 60px;
+        text-align: left;
+        background-color: yellow;
+    }
+    
