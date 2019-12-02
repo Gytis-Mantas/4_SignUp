@@ -5,26 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>4 darbas "Sign up"</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="./css/reset.css"> 
+    <link rel="stylesheet" href="./css/button.css">
+    <link rel="stylesheet" href="./css/form.css">
+    <link rel="stylesheet" href="./css/main.css"> 
+    <!-- prioritetai naudojami iš žemiau einančių aprašų -->
 </head>
 <body>
-    <section>
-        <img src="kalnai.png" alt="Kalnai">
-        <div>
-            <header >
-                <button type="submit" onclick="alert('OUT')">X</button>
-            </header>
-            <kbd class="textline">
-                <p>Username<br></p>  
-                <input type="text" class="input" name="vardas" id="">
-                <p>e-mail</p>
-                <input type="text" class="input" name="e-mail" id="">
-                <p>password</p>
-                <input type="text" class="input" name="pass1" id="">
-                <p>repeat password</p>
-                <input type="text" class="input" name="pass2" id="">
-            </kbd>
+    <main class="container">
+        <div class="left">
+            <h1>Sign Up</h1>
+            <footer>
+                <a href="#">Privace policy</a>
+                <span>&</span>
+                <a href="#">Terms of service</a>
+            </footer>
         </div>
-    </section> 
+        <div class="right">
+            <div>x</div>
+            <form>
+                <div>
+                    <label for="username">Username</label>
+                    <input type="text" placeholder="Enter your user name" name="username">
+
+                </div>
+                <div>
+                    <label for="email">e-mail</label>
+                    <input type="email" placeholder="your@email.com" name="email">
+                </div>
+                <div>
+                    <label for="pass">password</label>
+                    <input type="password" placeholder="password" name="pass">
+                </div>
+                <div>
+                   <label for="pass2">repeat password</label>
+                   <input type="password" placeholder="password" name="pass2">
+                </div>
+                <div>
+                    <div>Private policy</div>
+                    <span>or</span>
+                    <a href="#">Terms of service</a>
+                </div>
+            </form>
+        </div>
+    </main>
 </body>
 </html>
