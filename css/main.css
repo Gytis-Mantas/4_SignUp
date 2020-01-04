@@ -27,8 +27,21 @@ body {
         }
     .container > .right {
         display: inline-block;
+        position: relative;
         width: 60%;
         float: left;
         padding: 60px;
         background-color: #fff;
+    }
+    .container > .right > .close{
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 60px;
+        width: 60px;
+        font-size: 30px;
+        line-height: 54px;
+        text-align: center;
+        color: #777;
     }
